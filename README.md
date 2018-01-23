@@ -7,6 +7,8 @@ text modality) on MATLAB with MatConvNet toolbox.
 • Tested the algorithm on Microsoft COCO dataset, represented the images and annotations with hash code, improved 
 cross modal data retrieval precision.  
 
+## Net Structure
+![Alt text](https://github.com/wxgsdy/DCMH_on_MSCOCO/blob/master/net_img/net_img.PNG)
 ## File description
 1. MAPTool floder: tool functions like mean average precision to evaluate the model.
 2. matconvnet-beta23: Released version of matlab CNN toolbox from VlFeat.
