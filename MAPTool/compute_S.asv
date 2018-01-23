@@ -1,0 +1,6 @@
+function S = compute_S (L,dataset_index,test_index)
+    dataset_L=L(dataset_index,:);
+    test_L=L(test_index,:);
+    Dp=train_L*test_L';
+    S=Dp>0;
+end
